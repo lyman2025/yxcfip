@@ -16,7 +16,7 @@ if not CLOUDFLARE_ZONE_ID:
     print("Error: CLOUDFLARE_ZONE_ID environment variable not set.")
     sys.exit(1)
 
-BASE_DOMAIN_NAME = "lyl7410.cloudns.ch"
+BASE_DOMAIN_NAME = "freeus.us.to"
 TARGET_SUBDOMAINS = [f"sp{i}.{BASE_DOMAIN_NAME}" for i in range(10, 21)] # sp10 to sp20
 
 CLOUDFLARE_HEADERS = {
