@@ -33,6 +33,7 @@ print(f"Target Subdomains: {TARGET_SUBDOMAINS}")
 # 目标URL列表
 urls = [
     'https://cf.vvhan.com/',
+    'https://cf.090227.xyz/', 
     'https://ip.164746.xyz'
 ]
 ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
